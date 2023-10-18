@@ -1,0 +1,23 @@
+summary: | Нерабочая ссылка на GitHub-репозиторий проекта на главной странице сайта environment: | Сайт: https://hexlet-products-store.vercel.app/ Браузер: Google Chrome 94.0.4606.81 steps-to-reproduce: |
+
+Открыть сайт https://hexlet-products-store.vercel.app/ в браузере Google Chrome
+Пролистать страницу вниз до раздела “О проекте”
+Нажать на ссылку “GitHub-репозиторий проекта” expected-result: | Открыть страницу с исходным кодом проекта на GitHub actual-result: | Открыть страницу с ошибкой 404 на GitHub
+summary: | Нефункциональная кнопка “Оформить заказ” на странице корзины environment: | Сайт: https://hexlet-products-store.vercel.app/ Браузер: Google Chrome 94.0.4606.81 steps-to-reproduce: |
+
+Открыть сайт https://hexlet-products-store.vercel.app/ в браузере Google Chrome
+Добавить любой товар в корзину, нажав на кнопку “В корзину”
+Перейти на страницу корзины, нажав на иконку корзины в правом верхнем углу
+Нажать на кнопку “Оформить заказ” expected-result: | Перейти на страницу с формой для ввода данных покупателя и оплаты заказа actual-result: | Ничего не происходит
+summary: | Некорректный фильтр по цене на странице каталога environment: | Сайт: https://hexlet-products-store.vercel.app/ Браузер: Google Chrome 94.0.4606.81 steps-to-reproduce: |
+
+Открыть сайт https://hexlet-products-store.vercel.app/ в браузере Google Chrome
+Перейти на страницу каталога, нажав на ссылку “Каталог” в верхнем меню
+Выбрать диапазон цены от 1000 до 2000 рублей, перемещая ползунки под надписью “Цена”
+Просмотреть результаты фильтрации expected-result: | Увидеть только те товары, у которых цена находится в выбранном диапазоне от 1000 до 2000 рублей actual-result: | Увидеть товары с ценой меньше 1000 рублей
+summary: | Нессылочный логотип Vercel в подвале сайта environment: | Сайт: https://hexlet-products-store.vercel.app/ Браузер: Google Chrome 94.0.4606.81 steps-to-reproduce: |
+
+Открыть сайт https://hexlet-products-store.vercel.app/ в браузере Google Chrome
+Пролистать любую страницу сайта вниз до подвала
+Нажать на логотип Vercel в правом нижнем углу expected-result: | Открыть сайт компании Vercel, которая предоставляет сервис для развертывания сайта actual-result: | Ничего не происходит
+
