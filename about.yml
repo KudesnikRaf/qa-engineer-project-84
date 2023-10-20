@@ -1,14 +1,11 @@
-name: Ilona Maskova
+---
+name: Kolesnik Daniil
 job: QA Engineer
 level: junior
-email: ilona@hexlet.io
+email: kolesnikdaniil@gmail.com
 description: |
-  Это текст-описание в свободной форме. Здесь можно рассказать пару интересных фактов про себя
-
-  Текст может быть написан в несколько абзацев
-skills:
+  Учу JavaScript
+skills: 
   - функциональное тестирование
   - написание багрепортов
-  - Linux
-  - слепая печать
-  - английский язык C1
+  - английский язык B2
